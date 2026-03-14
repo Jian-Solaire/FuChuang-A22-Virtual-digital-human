@@ -1,0 +1,6 @@
+.env
+backend/.runtime/
+data/knowledge/*
+!data/knowledge/.gitkeep
+models/
+Reference/
