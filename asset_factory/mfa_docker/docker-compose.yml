@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mfa_service:
+    build: .
+    ports:
+      - "8080:8000"
+    volumes:
+      - ./assets:/app/assets
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - digital_avatar_net
+
+networks:
+  digital_avatar_net:
+    driver: bridge

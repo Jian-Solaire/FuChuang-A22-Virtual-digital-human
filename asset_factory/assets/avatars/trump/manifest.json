@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-14T20:47:55.658518",
+  "character": "trump",
+  "motions": [
+    {
+      "name": "d20",
+      "frames": 176,
+      "file": "motions/d20_deltas.npy",
+      "keypoints_file": "motions/d20_keypoints.npy",
+      "timestamps_file": "motions/d20_timestamps.npy"
+    }
+  ]
+}
